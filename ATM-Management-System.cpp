@@ -56,8 +56,7 @@ void withdrawl()
         cout << "Available Balance is:" << avai_balance;
     }
 };
- 
-// Driver Code
+ // Main function
 int main()
 {
     // Object of class
