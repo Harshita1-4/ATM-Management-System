@@ -42,11 +42,13 @@ void deposit()
         cout << "\nEnter amount to be Deposited\n";
         cin >> amount;
     }
+ // Function to calculate total amount
 void showbal()
     {
         totamt = totamt + amount;
         cout << "\nTotal balance is: " << totamt;
     }
+ // Function to calculate withdrawl amount
 void withdrawl()
     {
         int a, avai_balance;
